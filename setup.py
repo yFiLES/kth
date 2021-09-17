@@ -27,7 +27,7 @@ def license():
 setup(
     name = package_name,
     packages = ['kth',
-                'kth.cantera',
+                'kth.canteraKTH',
                 'kth.keyfi'],
     version = __version__,
     description = 'kth package containing collections',

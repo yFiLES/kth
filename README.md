@@ -36,3 +36,8 @@ You can test out your installation by running the ``main.py`` in the **tutorial*
 To deactivate this environment simply type:
 
 ``conda deactivate``
+
+### Usage
+------------
+import kth.keyfi as kf
+import kth.canteraKTH as ckth
