@@ -4,7 +4,7 @@
 
 1. cantera collections for flame calculations.
 
-2. keyfi collections for dimensional reduction task and combustion visualization.
+2. keyfi collections for dimensional reduction task and combustion visualization - also see [keyfi](https://github.com/marrov/keyfi)
 
 ## Author
 ------------
