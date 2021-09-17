@@ -1,6 +1,6 @@
 # kth
 ------------
-``kth`` contains some packages we build at KTH, Royal Institute of Technology, Swenden for multiple purpose tasks. We will constantly update sub-packages contained in it.
+``kth`` contains some packages we build at KTH, Royal Institute of Technology, Sweden for multiple purpose tasks. We will constantly update sub-packages contained in it.
 
 1. cantera collections for flame calculations.
 
