@@ -1,6 +1,6 @@
 # kth
 ------------
-``kth`` contains some packages we build at KTH, Royal Institute of Technology, Swende for multiple purpose tasks. We will constantly update sub-packages contained in it.
+``kth`` contains some packages we build at KTH, Royal Institute of Technology, Swenden for multiple purpose tasks. We will constantly update sub-packages contained in it.
 
 1. cantera collections for flame calculations.
 
@@ -8,11 +8,9 @@
 
 ## Author
 ------------
-1. [Kai Zhang, KTH, Royal Institute of Technology, Sweden](https://scholar.google.com/citations?user=lfUyemMAAAAJ&hl=en) - Google Scholar
+[Kai Zhang, KTH, Royal Institute of Technology, Sweden](https://scholar.google.com/citations?user=lfUyemMAAAAJ&hl=en) - Google Scholar
 
-2. [YaZhou Shen, KTH, Royal Institute of Technology, Sweden](https://scholar.google.com/citations?user=LqyHexAAAAAJ&hl=en) - Google Scholar
-
-Email: kaizhang@kth.se; kai.zhang.1@city.ac.uk; yashen@kth.se
+Email: kaizhang@kth.se; kai.zhang.1@city.ac.uk;
 
 ### Installation
 ------------
@@ -33,7 +31,7 @@ Now you can install the ``kth`` package into this newly created environment that
 ```bash
 pip install -e .
 ```
-You can test out your installation by running the ``main.py`` in the **tutorial** directory.
+You can test out your installation by running the ``main.py`` in the **tutorial** directory. (to be added)
 
 To deactivate this environment simply type:
 
