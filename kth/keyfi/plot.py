@@ -359,8 +359,8 @@ def plot_vtk_data(mesh, cluster_scores: Dict, clusterer: HDBSCAN, legend: bool =
     p.background_color = 'w'
 
     for cnt, (color, text) in enumerate(zip(cmap.colors, np.unique(labels))):
-        score_dict = get_score_dict(cluster_scores, text)
-
+        score_dict_ori = get_score_dict(cluster_scores, text)
+        score_dict = dict((k, v) for k, v in score_dict_ori.items() if float(v) >= 0)
         #idx = np.argwhere(mesh['values'] == text)
         #idx_sub = round(len(idx)/3)
 
