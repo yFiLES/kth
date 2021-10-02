@@ -39,6 +39,6 @@ To deactivate this environment simply type:
 
 ### Usage
 ------------
-import kth.keyfi as kf
+import keyfi as kf
 
-import kth.canteraKTH as ckth
+import canteraKTH as ckth
