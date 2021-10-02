@@ -1,15 +1,16 @@
 """
-Installation file for python pyvista module
+Installation file for python kth module
 """
 import os
 from io import open as io_open
 from setuptools import setup, find_packages
 
 package_name = 'kth'
+source_name = 'src'
 
 __version__ = None
 filepath = os.path.dirname(__file__)
-version_file = os.path.join(filepath, package_name, '_version.py')
+version_file = os.path.join(filepath, source_name, '_version.py')
 
 with io_open(version_file, mode='r') as fd:
     exec(fd.read())
@@ -26,9 +27,9 @@ def license():
 
 setup(
     name = package_name,
-    packages = ['kth',
-                'kth.canteraKTH',
-                'kth.keyfi'],
+    package_dir = {'': 'src'},
+    packages = {'canteraKTH',
+                'keyfi'},
     version = __version__,
     description = 'kth package containing collections',
     long_description = readme(),
