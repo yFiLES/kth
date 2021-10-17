@@ -6,6 +6,8 @@
 
 2. keyfi collections for dimensional reduction task and combustion visualization - also see [keyfi](https://github.com/marrov/keyfi)
 
+3. NN collections for building all kinds of neural network.
+
 ## Author
 ------------
 [Kai Zhang, KTH, Royal Institute of Technology, Sweden](https://scholar.google.com/citations?user=lfUyemMAAAAJ&hl=en) - Google Scholar
@@ -42,3 +44,5 @@ To deactivate this environment simply type:
 import keyfi as kf
 
 import canteraKTH as ckth
+
+from NN import *
